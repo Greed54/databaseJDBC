@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="161.0" prefWidth="315.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditEmployeeController">
+   <children>
+      <TextField fx:id="cmd_name_e" layoutX="99.0" layoutY="31.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="cmd_selo_e" layoutX="99.0" layoutY="74.0" prefHeight="25.0" prefWidth="164.0" />
+      <Label layoutX="37.0" layoutY="33.0" text="Имя">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="77.0" text="Село">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="104.0" layoutY="112.0" mnemonicParsing="false" onAction="#actionSave" prefHeight="35.0" prefWidth="108.0" text="Изменить" />
+   </children>
+</AnchorPane>
